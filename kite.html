@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style>
+    body {
+      background-color: white;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .square {
+      height: 90px;
+      width: 90px;
+      background-color: #DC143C;
+      transform: rotate(45deg);
+      position:absolute;
+    z-index:2;
+    margin-bottom:155px;
+    }
+    .square2 {
+      height: 90px;
+      width: 90px;
+      background-color: #DC143C;
+      transform: rotate(45deg);
+      position:absolute;
+      margin-top:150px;
+      z-index:2;
+    }
+    .base {
+      height: 200px;
+      width: 200px;
+      background-color: #F08080;
+      transform: rotate(45deg);
+      position:absolute;
+
+    }
+
+    .square3 {
+      height: 100px;
+      width: 100px;
+         opacity: 0.5;
+      background-color:#A9A9A9;
+      transform: rotate(45deg);
+      position:absolute;
+      margin-top:140px;
+      z-index:1;
+    }
+    .square4 {
+      height: 100px;
+      width: 100px;
+       opacity: 0.5;
+      background-color:#A9A9A9;
+      transform: rotate(45deg);
+      position:absolute;
+      margin-bottom:140px;
+      z-index:1;
+    }
+
+    .triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 50px solid #B22222;
+        z-index:3;
+          position:absolute;
+          margin-top:320px;
+}
+.horizontal {
+  width: 350px;
+  height: 150px;
+  border: solid 5px #B22222;
+  border-color: #B22222 transparent transparent transparent;
+  border-radius: 50%/100px 100px 0 0;
+  z-index:3;
+    position:absolute;
+        margin-top:80px;
+}
+.vertical {
+  width: 5px;
+  height: 290px;
+background: #B22222;
+margin-top:10px;
+  z-index:4;
+    position:absolute;
+
+}
+  </style>
+  <body>
+<div class="square"></div>
+<div class="square2"></div>
+<div class="base"></div>
+<div class="square3"></div>
+<div class="square4"></div>
+<div class="triangle-up"></div>
+<div class="vertical"></div>
+<div class="horizontal"></div>
+  </body>
+</html>
